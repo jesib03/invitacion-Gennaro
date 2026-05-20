@@ -1,10 +1,10 @@
 import InvitationCard from "@/components/InvitationCard";
 
-export default function InvitacionPage() {
+export default function HomePage() {
   return (
     <main
-  className="
-   min-h-screen
+      className="
+        min-h-screen
     flex
     items-start
     justify-center
@@ -12,9 +12,9 @@ export default function InvitacionPage() {
     pb-10
     px-4
     overflow-hidden
-  "
->
-  <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent pointer-events-none" />
+      "
+    >
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent pointer-events-none" />
       <InvitationCard />
     </main>
   );
