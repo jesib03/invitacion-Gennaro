@@ -73,6 +73,10 @@ throw new Error(data.error || "Error al enviar");
       onSubmit={handleSubmit}
       className="flex flex-col gap-4 w-full max-w-md"
     >
+      <p className="text-white text-sm text-center">
+        Si el niño asistirá sin un adulto acompañante,
+        puedes completar solamente el nombre del niño.
+      </p>
       <input
         type="text"
         placeholder="Nombre y apellido del adulto"
@@ -90,7 +94,6 @@ throw new Error(data.error || "Error al enviar");
           text-black
           outline-none
         "
-        required
       />
 
       <input
