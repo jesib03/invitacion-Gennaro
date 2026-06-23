@@ -84,22 +84,37 @@ export default function InvitationCard() {
       >
         <div className="flex items-center gap-2">
           <CalendarDays className="text-orange-500" />
-          <p>
-            <strong>Fecha:</strong> 13 de Julio
+          <p className="
+            text-lg
+            font-black
+            text-gray-900
+            drop-shadow-[0_0_8px_rgba(255,215,0,0.8)]
+          ">
+            <span className="text-orange-600">Fecha:</span> 13 de Julio
           </p>
         </div>
 
         <div className="flex items-center gap-2">
           <Clock3 className="text-blue-500" />
-          <p>
-            <strong>Hora:</strong> 16:00 hs
+         <p className="
+            text-lg
+            font-black
+            text-gray-900
+            drop-shadow-[0_0_8px_rgba(59,130,246,0.8)]
+          ">
+            <span className="text-blue-600">Hora:</span> 16:00 hs
           </p>
         </div>
 
         <div className="flex items-center gap-2">
           <MapPin className="text-red-500" />
-          <p>
-            <strong>Lugar:</strong> Play Center Maipú
+          <p className="
+            text-lg
+            font-black
+            text-gray-900
+            drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]
+          ">
+            <span className="text-red-600">Lugar:</span> Play Center Maipú
           </p>
         </div>
       </div>
